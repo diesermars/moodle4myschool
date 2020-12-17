@@ -1,0 +1,404 @@
+<?php
+// This file is part of Moodle - https://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'tool_certification', language 'de_wp', version '3.10'.
+ *
+ * @package     tool_certification
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['actions'] = 'Aktionen';
+$string['active'] = 'Aktiv';
+$string['activecertifications'] = 'Aktive Zertifizierungen';
+$string['afteractualcertcompletion'] = 'Nach aktuellem Zertifizierungsabschluss';
+$string['afteractualcertcompletionwithrelativedate'] = '{$a} nach Abschluss der Zertifizierung';
+$string['afterallocationdate'] = 'Nach dem Datum der Zuweisung';
+$string['afterallocationdatewithrelativedate'] = '$a} nach  Bereitstellungsdatum{';
+$string['aftercompletion'] = 'Nach dem Abschluss';
+$string['aftercompletionwithrelativedate'] = '{$a} nach Abschluss';
+$string['afterduedate'] = 'Nach Fälligkeit';
+$string['afterduedatewithrelativedate'] = '{$a} nach Ablaufdatum';
+$string['afterlatest'] = 'Nach dem späteren Datum (je nachdem ob dies der Abschluss oder das Ablaufdatum ist)';
+$string['afterlatestwithrelativedate'] = '{$a} nach dem letzteren Abschluss oder Ablauf';
+$string['afterpreviouscertexpdate'] = 'Nach dem vorigen Ablaufdatum der Zertifizierung';
+$string['afterpreviouscertexpdatewithrelativedate'] = '{$} nach dem ersten Abschluss oder Ablauf';
+$string['afterstartdate'] = 'Nach dem Startdatum';
+$string['afterstartdatewithrelativedate'] = '{$a} nach dem Startdatum';
+$string['allocateusers'] = 'Teilnehmer/innen zuweisen';
+$string['allocationdate'] = 'Datum der Zuweisung';
+$string['allocationdateisonorafter'] = 'Zuweisungsdatum am oder nach';
+$string['allocationenddate'] = 'Enddatum der Zuweisung';
+$string['allocationfor'] = 'Zuweisung für \'{$a}\'';
+$string['allocationsource'] = 'Quelle der Zuweisung';
+$string['allocationstartdate'] = 'Startdatum der Zuweisung';
+$string['allocationwindowenddate'] = 'Enddatum';
+$string['allocationwindowenddate_help'] = 'Enddatum des Zuweisungsfensters';
+$string['allocationwindowendedon'] = 'Das Zuweisungsfenster für diese Zertifizierung endete am {$a}.';
+$string['allocationwindowstartdate'] = 'Startdatum';
+$string['allocationwindowstartdate_help'] = 'Startdatum des Zuweisungsfensters';
+$string['allocationwindowstartson'] = 'Das Zuweisungsfenster für diese Zertifizierung startet am {$a}.';
+$string['archive'] = 'Archivieren';
+$string['archived'] = 'Archiviert';
+$string['archivedcertifications'] = 'Archivierte Zertifizierungen';
+$string['archivedconfirmation'] = 'Sind Sie sicher, dass Sie die Zertifizierung \'{$a}\' archivieren wollen? Archivierte Zertifizierungen sind für Teilnehmer/innen und Manager/innen nicht weiter nutzbar und können nur in Verlaufsberichten angesehen werden.';
+$string['archivedon'] = 'Archiviert am';
+$string['autocreategroups'] = 'Zu Kursgruppen hinzufügen';
+$string['autocreategroups_help'] = 'Wenn Nutzer in die Kurse des Programmes eingeschrieben werden, können sie automatisch zur selben Gruppe hinzugefügt werden. Bei Auswahl von "Für diese Zertifizierung" wird eine separate Gruppe für diese Zertifizierung erstelllt, getrennt von anderen Zertifizierungen, die auch sich auf dieses Programm beziehen.';
+$string['autocreategroupsasinprogram'] = 'Wie im Programm definiert';
+$string['autocreategroupscertification'] = 'Gruppe für diese Zertifizierung erstellen';
+$string['basic'] = 'Grundlegend';
+$string['basicdetails'] = 'Allgemeine Details';
+$string['becamecertified'] = 'Wurde verifiziert ({$a})';
+$string['beforepreviouscertexpdate'] = 'Vor vorigem Ablaufdatum der Zertifizierung';
+$string['calendarduedate'] = 'Fälligkeitsdatum der Zertifizierung {$a}';
+$string['calendarexpirydate'] = 'Ablaufdatum der Zertifizierung {$a}';
+$string['cannotallocateuser'] = 'Nutzer kann Zertifizierung {$a} nicht zugewiesen werden';
+$string['certification'] = 'Zertifizierung';
+$string['certification:allocateuser'] = 'Erlaubnis, den Nutzer zuzuweisen';
+$string['certification:configurecustomfields'] = 'Zertifizierungsfelder konfigurieren';
+$string['certification:edit'] = 'Erlaubnis zum Bearbeiten';
+$string['certification:view'] = 'Erlaubnis anzusehen';
+$string['certificationfullname'] = 'Vollständiger Name der Zertifizierung';
+$string['certificationfullname_help'] = 'Vollständiger Name der Zertifizierung';
+$string['certificationidnumber'] = 'Zertifizierungs-ID-Nummer';
+$string['certificationidnumber_help'] = 'Die ID-Nummer einer Zertifizierung wird nur beim Abgleich der Zertifizierung mit externen Systemen verwendet und ist nirgendwo sonst auf der Seite sichtbar. Wenn die Zertifizierung einen offiziellen Code Namen hat, kann dieser hier eingegeben werden, ansonsten kann das Feld leer bleiben.';
+$string['certificationname'] = 'Name der Zertifizierung';
+$string['certificationnamewithlink'] = 'Name der Zertifizierung mit Link';
+$string['certificationprogress'] = 'Fortschritt in Zertifizierung';
+$string['certificationrules'] = 'Zertifizierungsregeln';
+$string['certifications'] = 'Zertifizierungen';
+$string['certificationscustomfield'] = 'Felder für Zertifizierungen';
+$string['certificationstatus'] = 'Zertifizierungsstatus';
+$string['certificationstatus_help'] = 'Status dieser Zertifizierung';
+$string['certificationtags'] = 'Zertifizierungs-Tags';
+$string['certificationtags_help'] = 'Tags für diese Zertifizierung';
+$string['certificationuserlog'] = '{$a} Aktivitätsprotokoll';
+$string['certificationuserlogempty'] = 'Für diese Nutzerzertifizierung gibt es keine Ereignisprotokolle.';
+$string['certificationuserlogfilename'] = '{$a->user} Aktivitätsprotokoll {$a->certification}';
+$string['certified'] = 'Abgeschlossen';
+$string['certifiedby'] = 'Zertifiziert von';
+$string['certifiedcertificationslink'] = '<a href="{$a->href}">Abgeschlossene Zertifizierungen: {$a->count}</a>';
+$string['certifieddate'] = 'Abgeschlossener Termin';
+$string['certifieddateisonorafter'] = 'Zertifizierungsdatum am oder nach';
+$string['certifiednotification'] = 'Nutzer wurde erfolgreich zertifiziert';
+$string['certifiedtype'] = 'Zertifizierungstyp';
+$string['certify'] = 'Bestätigen';
+$string['certifyexpirydate'] = 'Ablaufdatum';
+$string['certifyexpirydate_help'] = 'Wählen Sie aus den Optionen \'Standard\' (zeigt die aktuelle Zertifizierungskonfiguration), \'Nie\' oder \'nutzerdefiniertes Datum\' ein Ablaufdatum für diesen zertifizierten Nutzer aus.';
+$string['certifyuser'] = 'Nutzer/in bestätigen';
+$string['completedtheprogram'] = 'Programm {$a} wurde abgeschlossen';
+$string['conditioncertificationcertified'] = 'Zertifizierung abgeschlossen';
+$string['conditioncertificationcertifieddescriptionwithdate'] = 'Nutzer haben den Status \'Zertifiziert\' in der Zertifizierung  \'{$a->fullname}\'<br />
+Zertifizierungsdatum am oder später \'{$a->conditiondate}\\';
+$string['conditioncertificationexpired'] = 'Zertifizierung abgelaufen';
+$string['conditioncertificationexpireddescriptionwithdate'] = 'Nutzer haben den Status \'Abgelaufen\' in der Zertifizierung  \'{$a->fullname}\'<br />
+Ablaufdatum am oder später \'{$a->conditiondate}\\';
+$string['conditioncertificationnotcertified'] = 'Zertifizierung nicht abgeschlossen';
+$string['conditioncertificationoverdue'] = 'Zertifizierung ausstehend';
+$string['conditioncertificationoverduedescriptionwithdate'] = 'Nutzer haben den Status \'Überfällig\' in der Zertifizierung  \'{$a->fullname}\'<br />
+Fälligkeitsdatum am oder später \'{$a->conditiondate}\\';
+$string['conditioncertificationstatus'] = 'Zertifizierungsstatus';
+$string['conditioncertificationstatusdescription'] = 'Teilnehmer/innen, die in der Zertifizierung \'{$a->fullname}\' den Status  \'{$a->status}\' haben.';
+$string['conditioncertificationstatusdescriptionnegated'] = 'Teilnehmer/innen, die in der Zertifizierung \'{$a->fullname}\' nicht den Status  \'{$a->status}\' haben.';
+$string['conditioncertificationsuspended'] = 'Zertifizierung gesperrt';
+$string['conditioncertificationsuspendeddescriptionwithdate'] = 'Nutzer haben den Status \'Gesperrt\' in der Zertifizierung  \'{$a->fullname}\'<br />
+Sperrdatum am oder später \'{$a->conditiondate}\\';
+$string['conditionrecertificationgraceperiod'] = 'Kulanzzeitraum für Re-Zertifizierung endet';
+$string['conditionrecertificationgraceperiodendsdescription'] = 'Nutzer, deren Kulanzzeitraum in Zertifizierung \'{$a->fullname}\' endet';
+$string['conditionrecertificationgraceperiodendsdescriptionwithdate'] = 'Nutzer deren Nachfrist zur Zertifizierung endet  \'{$a->fullname}\'<br />
+Nachfrist der Rezertifzierung endet vor oder am \'{$a->conditiondate}\\';
+$string['conditionrecertificationstarted'] = 'Re-Zertifizierungszeitraum gestartet';
+$string['conditionrecertificationstarteddescription'] = 'Nutzer, deren Re-Zertifizierungszeitraum in Zertifizierung \'{$a->fullname}\' gestartet ist';
+$string['conditionrecertificationstarteddescriptionwithdate'] = 'Nutzer, deren Rezertifizierungszeitraum in Zertifizierung begonnen hat \'{$a->fullname}\'<br />
+Rezertifierung startet am oder später \'{$a->conditiondate}\\';
+$string['conditionuserallocated'] = 'Zur Zertifizierung zugewiesene Nutzer';
+$string['conditionuserallocateddescription'] = 'Zur Zertifizierung {$a} zugewiesene Nutzer';
+$string['conditionuserallocateddescriptionwithdate'] = 'Nutzer, die Zertifizierung zugewiesen  {$a->fullname} wurden<br />
+Zuweisung am oder später \'{$a->conditiondate}\\';
+$string['conditionusernotallocated'] = 'Nicht zur Zertifizierung zugewiesene Nutzer';
+$string['conditionusernotallocateddescription'] = 'Nicht zur Zertifizierung {$a} zugewiesene Nutzer';
+$string['confirmdeletecertification'] = 'Sind Sie sicher, dass Sie die Zertifizierung \'{$a}\' und die zugehörigen Daten löschen wollen? Diese Aktion kann nicht rückgängig gemacht werden.';
+$string['confirmdeleteuserallocation'] = 'Sind Sie sicher, dass Sie die Zuweisung des Nutzers \'{$a}\' und alle damit zusammenhängenden Daten löschen wollen? Diese Aktion kann nicht rückgängig gemacht werden.';
+$string['confirmduplicate'] = 'Eine Kopie der Zertifizierungkonfiguration wird erstellt und Sie können das Programm und andere Eigenschaften ändern. Es werden keine Nutzerdaten in die Kopie übernommen.';
+$string['content'] = 'Inhalt';
+$string['coursebackups'] = 'Kurssicherungen (ohne Nutzerdaten)';
+$string['currentprogram'] = 'Aktuelles Programm';
+$string['currentprogram_help'] = 'Aktuelles Programm, in das der Nutzer eingeschrieben ist';
+$string['dateoverrided'] = 'Datum überschrieben';
+$string['dayssinceallocation'] = 'Tage seit Zuweisung';
+$string['daystakingcertification'] = 'Tage seit der Einschreibung';
+$string['default'] = 'Standard';
+$string['deleteuserallocation'] = 'Nutzerzuweisung löschen';
+$string['displaycertificationdate'] = 'Zertifizierungsdatum';
+$string['displaycertificationid'] = 'Interne Zertifizierungs-ID, die in URLs verwendet wird';
+$string['displaycertificationname'] = 'Name der Zertifizierung';
+$string['displayexpirydate'] = 'Ablaufdatum der Zertifizierung';
+$string['displayexpirydatetimestamp'] = 'Zeitpunkt des Ablaufdatums der Zertifizierung';
+$string['duedate'] = 'Fälligkeitsdatum';
+$string['duedate_help'] = 'Datum der Fälligkeit der Zertifizierung';
+$string['duedateisonorafter'] = 'Fälligkeitsdatum am oder nach';
+$string['duplicate'] = 'Kopieren';
+$string['dynamic'] = 'Dynamisch';
+$string['dynamicrules'] = 'Dynamische Regeln';
+$string['dynamicrulesplugincheck'] = 'Ansicht der Liste Dynamischer Regeln ist nicht möglich ohne das Plugin tool_dynamicrules';
+$string['dynamicrulewarningdeallocation'] = 'Nutzerzuweisungen können nur aufgehoben werden, wenn sie durch eine Dynamische Regel ausgelöst wurden, manuelle Zuweisungen sind nicht betroffen';
+$string['editcertification'] = '\'{$a}\' Zertifizierung bearbeiten';
+$string['editcertificationname'] = 'Namen der Zertifizierung bearbeiten';
+$string['editcertificationsettings'] = 'Einstellungen der Zertifizierung bearbeiten';
+$string['editcontent'] = 'Inhalt bearbeiten';
+$string['editdetails'] = 'Details bearbeiten';
+$string['enddate'] = 'Enddatum';
+$string['entitycertification'] = 'Zertifizierung';
+$string['entitycertificationusers'] = 'Nutzerzuweisungen und Abschlüsse für Zertifizierungen';
+$string['errorallocatinguserintorelatedprogram'] = 'Nutzer kann nicht in das verbundene Programm zugewiesen werden';
+$string['errorallocationsourcenotfound'] = 'Zuweisungsquelle nicht gefunden';
+$string['erroralreadycertified'] = 'Nutzer ist in dieser Zertifizierung mit diesem Start-Datum bereits zertifiziert.';
+$string['errorcannotallocate'] = 'Konnte Zertifizierung nicht dem/der Nutzer/in zuweisen (Zuweisung existiert bereits oder ist nicht erlaubt)';
+$string['errorcantallocateuser'] = 'Kann Nutzer/in nicht zuweisen';
+$string['errorcantdeletecertification'] = 'Zertifizierung kann nicht gelöscht werden';
+$string['errorcantdeletenotarchivedcertification'] = 'Nicht archivierte Zertifizierung kann nicht gelöscht werden';
+$string['errorcantmanageusers'] = 'Nutzer können nicht verwaltet werden';
+$string['errorcantrestorecertification'] = 'Zertifizierung kann nicht wiederhergestellt werden';
+$string['errorcertificationnotvisiblecurrentuser'] = 'Zertifizierung ist für den/die aktuelle/n Nutzer/in basierend auf dem Zertifizierungsmandanten nicht sichtbar';
+$string['errorcertificationsdontexist'] = 'Einige Zertifizierungen existieren nicht';
+$string['errorcouldnotallocate'] = 'Konnte Nutzer/in \'{$a->originaluserfullname}\' nicht zur Zertifizierung \'{$a->certification}\' zuweisen';
+$string['errorevaluatinguserallocationstatus'] = 'Fehler beim der Prüfung des Status der Nutzerzuweisung';
+$string['errorexpirydatepreviousduedate'] = 'Ablaufdatum kann nicht vor dem Fälligkeitsdatum liegen';
+$string['erroridnumberuniquetenant'] = 'Die ID-Nummer wird bereits in einer anderen Zertifizierung verwendet';
+$string['errorinvalidcertification'] = 'Ungültige Zertifizierung';
+$string['errorinvaliddate'] = 'Ungültiges Datum';
+$string['errorinvalidexpirydate'] = 'Ungültiges Datum im Ablaufdatum';
+$string['errorinvalidpastexpirydate'] = 'Ablaufdatum darf nicht in der Vergangenheit liegen';
+$string['errorinvalidpaststartdate'] = 'Startdatum darf nicht in der Vergangenheit liegen';
+$string['errorinvalidtimecertified'] = 'Zeitpunkt der Zertifizierung darf nicht in der Zukunft liegen.';
+$string['errormissingassociatedprogram'] = 'Verbundenes Programm fehlt';
+$string['errormustnotcontainsharedcertifications'] = 'Darf keine geteilten Zertifizierungen enthalten';
+$string['errornopermissionallocateusers'] = 'Keine Berechtigung, um Nutzer/innen zur Zertifizierung zuzuweisen';
+$string['errornopermissionmanagecertifications'] = 'Keine Berechtigung zur Verwaltung von Zertifizierungen';
+$string['errornopermissionviewallocatedusers'] = 'Keine Berechtigung, um die zur Zertifizierung zugewiesenen Nutzer/innen anzusehen';
+$string['errornopermissionviewreports'] = 'Keine Berechtigung zur Ansicht von Berichten';
+$string['errornothingtoexportforcertifications'] = 'Nichts zu exportieren für geteilte Zertifizierung(en): {$a}';
+$string['errorrecertificationprogram'] = 'Das Rezertifizierungsprogramm sollte ein anderes sein als das ursprüngliche Programm';
+$string['errorreporttypedoesnotexist'] = 'Berichtstyp existiert nicht';
+$string['errorsameidnumber'] = 'Zertifizierung mit der selben ID-Nummer existiert bereits';
+$string['erroruseralreadyallocatedincertification'] = 'Nutzer ist Zertifizierung bereits zugewiesen';
+$string['erroruseralreadyallocatedinprogram'] = 'Nutzer ist Programm bereits zugewiesen';
+$string['errorusernotinsametenant'] = 'Nutzer ist nicht im selben Mandaten';
+$string['eventcertificationcompleted'] = 'Zertifizierung abgeschlossen';
+$string['eventcertificationcreated'] = 'Zertifizierung erstellt';
+$string['eventcertificationdeleted'] = 'Zertifizierung gelöscht';
+$string['eventcertificationupdated'] = 'Zertifizierung aktualisiert';
+$string['eventrecertificationgraceperiodended'] = 'Kulanzzeitraum für Re-Zertifizierung ist zu Ende';
+$string['eventrecertificationstarted'] = 'Re-Zertifizierung gestartet';
+$string['eventuserallocated'] = 'Wurde der Zertifizierung zugeordnet';
+$string['eventuserdeallocated'] = 'Nutzerzuweisung aufgehoben';
+$string['eventuserupdated'] = 'Nutzerzuweisung aktualisiert';
+$string['expired'] = 'Abgelaufen';
+$string['expiredcertificationslink'] = '<a href="{$a->href}">Abgelaufene Zertifizierungen: {$a->count}</a>';
+$string['expireddateisonorafter'] = 'Ablaufdatum am oder nach';
+$string['expireson'] = 'Läuft ab am {$a}';
+$string['expirydate'] = 'Ablaufdatum';
+$string['expirydate_help'] = 'Ablaufdatum der Zertifizierung';
+$string['export_content'] = 'Einstellungen';
+$string['export_content_help'] = 'Zertifizierungen, Namen, Beschreibungen, Daten, Tags, etc.';
+$string['export_course_backups'] = 'Kurssicherungen (ohne Nutzerdaten)';
+$string['export_course_backups_help'] = 'Sicherungen aller Kurse dieser Zertifizierungen.';
+$string['export_dynamic_rules'] = 'Dynamische Regeln';
+$string['export_dynamic_rules_help'] = 'Alle Dynamischen Regeln für diese Zertifizierungen';
+$string['export_programs'] = 'Zugehörige Programme';
+$string['export_programs_help'] = 'Programme, Namen, Beschreibungen, Daten, Tags, etc.';
+$string['export_user_allocations'] = 'Nutzerzuweisungen';
+$string['export_user_allocations_help'] = 'Schließt Nutzerzuweisungen zu diesen Zertifizierungen ein. Eine Kopie der Nutzer/innen selbst wird nicht mit eingeschlossen.';
+$string['exportcertificationsdescription'] = 'Zertifizierungen mit ihren zugehörigen Programmen, Kursen, Nutzerzuweisungen und Dynamischen Regeln';
+$string['exportonlyallocationspostfix'] = '(nur Nutzerzuweisungen)';
+$string['futureallocation'] = 'Zukünftige Zuweisungen';
+$string['gotocertification'] = 'Zur Zertifizierung gehen';
+$string['idnumber'] = 'ID Nummer';
+$string['import_content'] = 'Einstellungen';
+$string['import_content_help'] = 'Zertifizierungen, Namen, Beschreibungen, Daten, Tags, etc.';
+$string['import_course_backups'] = 'Kurssicherungen (ohne Nutzerdaten)';
+$string['import_course_backups_help'] = 'Gesicherte Kurse in diese Programme importieren';
+$string['import_dynamic_rules'] = 'Dynamische Regeln';
+$string['import_dynamic_rules_help'] = 'Alle Dynamischen Regeln für diese Programme';
+$string['import_programs'] = 'Zugehörige Programme';
+$string['import_programs_help'] = 'Programme, Namen, Beschreibungen, Daten, Tags, etc.';
+$string['import_user_allocations'] = 'Nutzerzuweisungen';
+$string['import_user_allocations_help'] = 'Schließt Nutzerzuweisungen zu diesen Programmen ein.';
+$string['importcannotallocate'] = 'Dem/der Nutzer/in konnte \'{$a->originaluserfullname}\' konnte nicht die Zertifizierung \'{$a->certification}\' zugewiesen werden, Zuweisung existiert bereits oder ist nicht erlaubt';
+$string['importlogfailed'] = 'Konnte Zertifizierung \'{$a->fullname}\' nicht importieren';
+$string['importlogidnumberexists'] = 'Zertifizierung mit ID-Nummer \'{$a->originalidnumber}\' existiert bereits';
+$string['importlogsuccess'] = 'Neue Zertifizierung \'<a href="{$a->url}">{$a->fullname}</a>\' erstellt';
+$string['importlogsuccessuserallocations'] = 'Nutzer/in \'{$a->userfullname}\' wurde zur Zertifizierung  \'{$a->certification}\' zugewiesen';
+$string['include_shared_entities'] = 'Geteilte einschließen';
+$string['include_shared_entities_help'] = 'Wenn Sie diese Option aktivieren, beinhaltet die exportierte Datei zusätzlich:
+
+* Alle im aktuellen Mandanten verfügbaren geteilten Zertifizierungen
+* Alle geteilten Programme, die mit den gewählten Zertifizierungen verknüpft sind
+* Alle Programmkurse außerhalb der Kurskategorie des aktuellen Mandanten';
+$string['keepcertificationdefaults'] = 'Standardeinstellungen für Zertifizierungen behalten';
+$string['lessthanaday'] = 'Weniger als ein Tag';
+$string['manageprograms'] = 'Programme verwalten';
+$string['manual'] = 'Manuell';
+$string['manuallycertifieduser'] = '{$a->usertarget} ({$a->expirydate}) manuell zertifiziert';
+$string['mappingerrorcertificationnotfound'] = 'Zertifizierung {$a} wurde nicht gefunden';
+$string['mappingnoticenoidnumber'] = 'Die Zertifizierung wurde über den Namen abgerufen, weil die ID-Nummer leer ist. Es wird empfohlen, für Zertifizierungen ID-Nummern anzulegen.';
+$string['markcertificationcompletednotice'] = 'Zertifizierung als abgeschlossen markieren ohne auf den Programmabschluss zu warten';
+$string['messageprovider:certificationcompleted'] = 'Zertifizierung abgeschlossen';
+$string['messageprovider:certificationuserallocated'] = 'Nutzer zugewiesen';
+$string['messageprovider:certificationuserdeallocated'] = 'Nutzerzuweisung aufgehoben';
+$string['missingcertification'] = 'Fehlende Zertifizierung';
+$string['missingfullname'] = 'Vollständiger Name fehlt';
+$string['missingprogram'] = 'Programm fehlt';
+$string['never'] = 'Nie';
+$string['neverexpires'] = 'Unbegrenzt gültig';
+$string['newcertification'] = 'Neue Zertifizierung';
+$string['newvaluefor'] = 'Neuer Wert für';
+$string['notavailable'] = 'Nicht verfügbar';
+$string['notificationmsgcertificationcompleted'] = 'Glückwunsch! Sie haben die Zertifizierung \'{$a}\' abgeschlossen';
+$string['notificationmsgcertificationuserallocated'] = 'Sie wurden zur Zertifizierung \'{$a}\' zugewiesen.';
+$string['notificationmsgcertificationuserdeallocated'] = 'Ihre Zuweisung zur Zertifizierung \'{$a}\' wurde aufgehoben';
+$string['notificationmsgfooter'] = 'Sie finden alle Zertifizierungen in Ihrem <a href="{$a}">Dashboard</a>';
+$string['notificationsubjectcertificationcompleted'] = 'Zertifizierung \'{$a}\' abgeschlossen';
+$string['notificationsubjectcertificationuserallocated'] = 'Zugewiesen zur Zertifizierung \'{$a}\\';
+$string['notificationsubjectcertificationuserdeallocated'] = 'Zuweisung zur Zertifizierung \'{$a}\' aufgehoben';
+$string['notset'] = 'Nicht gesetzt';
+$string['nousersselected'] = 'Bitte wählen SIe mindestens einen Nutzer aus';
+$string['ongoingcertificationslink'] = '<a href="{$a->href}">Laufende Zertifzierungen: {$a->count}</a>';
+$string['open'] = 'Offen';
+$string['outcomeallocation'] = 'Nutzer zu Zertifizierungen zuweisen';
+$string['outcomeallocationdescription'] = 'Nutzer zur Zertifizierung {$a} zuweisen<br />
+Standardstartdatum beibehalten';
+$string['outcomeallocationdescriptionwithdate'] = 'Nutzer der Zertifizierung {$a->certificationname} zuweisen<br />
+Startdatum derZertifizierung: \'{$a->startdate}\\';
+$string['outcomedeallocation'] = 'Nutzerzuweisung zu Zertifizierungen aufheben';
+$string['outcomedeallocationdescription'] = 'Nutzerzuweisung zu Zertifizierung {$a} aufheben';
+$string['overdue'] = 'Überfällig';
+$string['overduecertificationslink'] = '<a href="{$a->href}">Überfällige Zertifzierungen: {$a->count}</a>';
+$string['pluginname'] = 'Zertifizierungen';
+$string['previewcertificationname'] = 'Vorschau Zertifikatsname';
+$string['previouscertexpirydate'] = 'Vorheriges Ablaufdatum der Zertifizierung';
+$string['privacy:metadata:certification_completions'] = 'Information über den Abschluss der Zertifizierung';
+$string['privacy:metadata:certification_completions:certificationid'] = 'Zertifizierung, die der Nutzer abgeschlossen hat.';
+$string['privacy:metadata:certification_completions:certifiedby'] = 'Nutzer, der die Zertifizierung erstellt hat';
+$string['privacy:metadata:certification_completions:expirydate'] = 'Ablaufdatum des Abschlusses der Zertifizierung';
+$string['privacy:metadata:certification_completions:revokedby'] = 'Der Nutzer, der die Zertifizierung widerrufen hat';
+$string['privacy:metadata:certification_completions:timecertified'] = 'Der Zeitpunkt, zu dem der Nutzer die Zertifizierung abgeschlossen hat.';
+$string['privacy:metadata:certification_completions:timecreated'] = 'Der Zeitpunkt, zu dem der Abschluss erfasst wurde';
+$string['privacy:metadata:certification_completions:timemodified'] = 'Modifizierte Zeit des Abschlusses der Zertifizierung';
+$string['privacy:metadata:certification_completions:userid'] = 'Nutzer, der die Zertifizierung abgeschlossen hat.';
+$string['privacy:metadata:certification_users'] = 'Information über die Nutzerzuweisung zur Zertifizierung';
+$string['privacy:metadata:certification_users:certificationid'] = 'Zugewiesene Zertifizierung';
+$string['privacy:metadata:certification_users:currentprogramid'] = 'Das Programm, dem der Nutzer zugewiesen ist';
+$string['privacy:metadata:certification_users:isrecertification'] = 'Ob der Nutzer in einer Re-Zertifizierung ist';
+$string['privacy:metadata:certification_users:status'] = 'Ob der Nutzer von der Zertifizierung ausgeschlossen wurde.';
+$string['privacy:metadata:certification_users:timemodified'] = 'Modifizierte Zeit der Nutzerzuweisung';
+$string['privacy:metadata:certification_users:userid'] = 'Zugewiesener Nutzer';
+$string['privacy:metadata:core_tag'] = 'Tags zu Zertifizierungen hinzugefügt';
+$string['program'] = 'Programm';
+$string['programchangewarning'] = 'Nutzer, die dem Programm aktuell zugewiesen sind, werden nicht automatisch erneut zugewiesen. Dies kann stattdessen manuell für Nutzer individuell festgelegt werden. Der Status von Nutzern, die das Programm bereits abgeschlossen haben und der Status von Nutzern, die manuell als "zertifiziert"markiert wurden, ändert sich dadurch nicht, aber ihre Zuweisung zum alten Programm wird aufgehoben und sie sehen das Programm nicht mehr auf ihrem Dashboard.';
+$string['programcourse'] = 'Programmkurs';
+$string['programuserallocation'] = 'Programm Nutzerzuweisung';
+$string['progressreport'] = 'Fortschrittsbericht';
+$string['recertdifferentprogram'] = 'Wählen Sie ein anderes Programm aus';
+$string['recertdifferentprogram_help'] = 'Wählen Sie "Ja" aus, wenn Sie für die Re-Zertifizierung nicht das ursprüngliche Programm sondern ein anderes Programm wählen möchten.';
+$string['recertduedaterelative'] = 'Fälligkeitsdatum';
+$string['recertduedaterelative_help'] = 'Datum an dem die Re-Zertifizierung fällig ist';
+$string['recertexpirydate'] = 'Ablaufdatum';
+$string['recertexpirydate_help'] = 'Datum an dem die Re-Zertifizierung für den Nutzer ablaufen wird';
+$string['recertexpirydatewarning'] = 'Für die ursprüngliche Zertifizierung ist kein Ablaufdatum gesetzt, Re-Zertifizierung ist dadurch nur für Nutzer möglich, bei denen ein individuelles Ablaufdatum für die Zertifizierung gesetzt wurde.';
+$string['recertgraceperiod'] = 'Kulanzzeitraum';
+$string['recertgraceperiod_help'] = 'Der Kulanzzeitraum ist die Zeit, die Nutzern zum Absolvieren des Programms und zur Zertifizierung gewährt wird, nachdem die ursprüngliche Frist für die Zertifizierung abgelaufen ist.Zertifizierung';
+$string['recertgraceperiodends'] = 'Kulanzzeitraum endet';
+$string['recertification'] = 'Re-Zertifizierung';
+$string['recertificationgraceperiodendsonorbefore'] = 'Re-Zertifizierungs-Kulanzzeitraum endet an oder vor';
+$string['recertificationprogram'] = 'Re-Zertifizierung Programm';
+$string['recertificationprogram_help'] = 'Wählen Sie ein Programm aus, das für die Re-Zertifizierung genutzt werden soll. Dieses Programm muss ein anderes sein als das Programm, das ursprünglich für die Zertifizierung verwendet wurde.';
+$string['recertificationstartdate'] = 'Re-Zertifizierungs-Startdatum';
+$string['recertificationstartedonorafter'] = 'Re-Zertifizierung startete an oder nach';
+$string['recertstartdaterelative'] = 'Startdatum';
+$string['recertstartdaterelative_help'] = 'Datum ab dem das Re-Zertifzierungs-Programm für Nutzer verfügbar ist.';
+$string['recertstartdatewarning'] = 'An diesem Datum wird das Re-Zertifizierungs-Programm zurückgesetzt. Stellen Sie sicher, dass Nutzer nicht an anderer Stelle in diesen Kurs eingeschrieben sind, nicht direkt diesem Programm zugewiesen sind und nicht über andere Zertifizierungen zugewiesen sind, da sie sonst ihren Fortschritt in diesem Kurs verlieren werden.';
+$string['reg_wpcertifications'] = 'Zahl der Zertifizierungen ({$a})';
+$string['reportactivecerts'] = 'Systembericht zu aktiven Zertifizierungen';
+$string['reportarchivedcerts'] = 'Systembericht zu archivierten Zertifizierungen';
+$string['reportbuilderactivecertifications'] = 'Anzeige der Liste aktiver Zertifizierungen ist ohne das tool_reportbuilder-Plugin nicht möglich';
+$string['reportbuilderarchivedcertifications'] = 'Anzeige der Liste archivierter Zertifizierungen ist ohne das tool_reportbuilder-Plugin nicht möglich';
+$string['reportbuilderdynamicrules'] = 'Anzeige der Liste dynamischer Regeln ist ohne das tool_reportbuilder-Plugin nicht möglich';
+$string['reportbuilderuserallocations'] = 'Anzeige der Liste von Nutzerzuweisungen ist ohne das tool_reportbuilder-Plugin nicht möglich';
+$string['reportbuilderuserlist'] = 'Anzeige der Nutzerliste ist ohne das tool_reportbuilder-Plugin nicht möglich';
+$string['reportcertificationprogress'] = 'Systembericht über Zertifizierungsfortschritt';
+$string['reportcertsusers'] = 'Systembericht für Zertifzierungsnutzer';
+$string['reportusercerts'] = 'Systembericht für Nutzerzertifizieurngen';
+$string['requirerecertification'] = 'Re-Zertifizierung notwendig';
+$string['requirerecertification_help'] = 'Wählen Sie "Ja" um Re-Zertifizierung für diese Zertifizierung zu aktivieren';
+$string['resetadditionalcourses'] = 'Zusätzliche Kurse zurücksetzen';
+$string['resetadditionalcourses_help'] = 'Setzt die Kurse zurück, die Teil des neuen Programms sind und die nicht Teil des alten Programms waren';
+$string['restore'] = 'Wiederherstellen';
+$string['revokecertification'] = 'Zertifizierung widerrufen';
+$string['revoked'] = 'Widerrufen';
+$string['revokedby'] = 'Widerrufen von';
+$string['revokednotification'] = 'Die Zertifizierung wurde erfolgreich widerrufen';
+$string['revokedon'] = 'Widerrufen von';
+$string['revokedthisuser'] = '{$a}\'s Zertifizierung widerrufen';
+$string['revokewarning'] = 'Sind Sie sicher, dass Sie die Zertifizierung von \'{$a}\' widerrufen möchten? Auszeichnungen, die durch den Abschluss möglicherweise vergeben wurden, werden nicht widerrufen.';
+$string['rolemanager'] = 'Zertifizierungsmanager/in';
+$string['rolemanagerdescription'] = 'Erlaubt es Zertifzierungen innerhalb des aktuellen Mandanten zu erstellen und zu verwalten sowie Nutzer diesen zuzuweisen';
+$string['schedule'] = 'Zertifizierungsdaten';
+$string['scheduleupdatesuccess'] = 'Ihre Änderungen wurden erfolgreich gespeichert.';
+$string['selectactiveandarchivedcertifications'] = 'Aktive und archivierte Zertifizierungen auswählen';
+$string['selectadifferentprogram'] = 'Wählen Sie ein anderes Programm aus.';
+$string['selectallactivecertifications'] = 'Alle aktiven Zertifizierungen auswählen';
+$string['selectallcertificationsinthisfile'] = 'Alle Zertifizierungen in dieser Datei auswählen';
+$string['selectatleastonecertification'] = 'Mindestens eine Zertifizierung auswählen';
+$string['selectcertificationcondition'] = 'Zertifizierung';
+$string['selectcertificationcondition_help'] = 'Wählen Sie die Zertifizierung, in der diese Bedingung angewendet werden soll';
+$string['selectcertificationoutcome'] = 'Zertifizierung';
+$string['selectcertificationoutcome_help'] = 'Wählen Sie die Zertifizierung, in der diese Aktion angewendet werden soll';
+$string['selectdate'] = 'Datum auswählen';
+$string['selectmanually'] = 'Manuell auswählen…';
+$string['selectprogram'] = 'Programm auswählen';
+$string['selectprogram_help'] = 'Programm auswählen, dass mit der Zertifizierung verbunden ist';
+$string['separatetenantsingroupswarning'] = 'In Kursen, die für mehrere Mandanten genutzt werden, werden für die Teilnehmer jedes Mandanten Gruppen gebildet.';
+$string['startdate'] = 'Startdatum';
+$string['startdate_help'] = 'Startdatum der Zertifizierung';
+$string['status'] = 'Status';
+$string['suspended'] = 'Gesperrt';
+$string['suspendeddateisonorafter'] = 'Sperrdatum am oder nach';
+$string['system'] = 'System';
+$string['tagarea_tool_certification'] = 'Zertifizierungen';
+$string['tags'] = 'Tags';
+$string['timecreated'] = 'Erstellt am';
+$string['timemodified'] = 'Zuletzt bearbeitet am';
+$string['timesuspended'] = 'Gesperrt am';
+$string['toomanycertificationstoshow'] = 'Zu viele Zertifizierungen zur Anzeige';
+$string['uponcompletion'] = 'Nach Abschluss';
+$string['userallocation'] = 'Nutzerzuweisung';
+$string['usercompletion'] = 'Nutzerabschluss';
+$string['userduedate'] = 'Fälligkeitsdatum';
+$string['userduedate_help'] = 'Fälligkeitsdatum der Zertifizierung für diesen Nutzer wählen.';
+$string['usergotsuspended'] = 'Nutzer wurde gesperrt';
+$string['users'] = 'Nutzer';
+$string['usersallocationnotavailable'] = 'Nutzerzuweisung ist nicht verfügbar';
+$string['userstartdate'] = 'Startdatum';
+$string['userstartdate_help'] = 'Startdatum der Zertifizierung für diesen Nutzer wählen. Das Datum gilt nur für diesen Nutzer.';
+$string['userstatus'] = 'Status';
+$string['userstatus_help'] = 'Der Sperrstatus verbirgt diese Zertifizierung vor diesem Nutzer während sie ihm beim Standardstatus angezeigt wird.';
+$string['viewcertificationuserlog'] = 'Zertifizierungs-Logs';
